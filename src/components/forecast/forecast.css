@@ -42,7 +42,7 @@
     grid-row-gap: 0;
     grid-column-gap: 15px;
     -webkit-column-gap: 15px;
-    column-gap: 15px;
+    column-gap: 100px;
     display: grid;
     grid-template-columns: auto auto;
     padding: 5px 15px;
@@ -57,10 +57,12 @@
   }
   
   .daily-details-grid-item label:first-child {
-    color: #ffff;
+    color: #0f0f0f;
+    font-size:large;
   }
   
   .daily-details-grid-item label:last-child {
     color: #212121;
+    font-size:large;
   }
   
